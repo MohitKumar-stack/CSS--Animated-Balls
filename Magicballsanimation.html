@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;        }
+        body{
+            background-color: black;
+            opacity: 0.7;
+        }    
+        .plate{
+            border-bottom: 14px solid white;
+            width: 350px;
+            position: absolute;
+            top: 47%;
+            left: 38%;
+            transform: translate(-50% -50%);
+        }
+        .balls1{
+            position: absolute;
+            top: 25%;
+            left: 40%;
+            border: 20px solid chartreuse ;
+          
+            background-color: chartreuse;
+            border-radius: 300px;
+            animation-name: balls1;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-delay: 0ms;
+            animation-timing-function: linear;
+            animation-timing-function: ease-in-out;
+  
+            
+        }
+        @keyframes balls1{
+        0%{
+            top: 28%;
+           
+
+        } 
+        20%{
+            top: 31%;
+            
+        }40%{
+            top: 34%;
+           
+        }
+        60%{
+            top: 38%;
+            
+        }
+        80%{
+            top: 42%;
+         
+        }
+  
+        }
+        .balls2{
+            position: absolute;
+            top: 25%;
+            left: 45%;
+            border: 20px solid brown ;
+            
+            background-color: brown;
+            border-radius: 300px;
+            animation-name: balls2;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-delay: 1ms;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes balls2{
+        0%{
+            top: 41%;
+        }
+        20%{
+            top: 36%;
+        }30%{
+            top: 31%;
+        }
+  
+        }
+        .balls3{
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            border: 20px solid white ;
+            
+            background-color: white;
+            border-radius: 300px;
+            animation-name: balls3;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-delay: 1ms;
+            animation-timing-function: ease-in-out;
+
+        }
+        @keyframes balls3{
+        0%{
+            top: 33%;
+        }
+        20%{
+            top: 35%;
+        }30%{
+            top: 41%;
+        }
+  
+        } 
+        .balls4{
+            position: absolute;
+            top: 25%;
+            left: 55%;
+            border: 20px solid rgb(35, 175, 35);
+           
+            background-color: rgb(35, 175, 35);
+            border-radius: 300px;
+            animation-name: balls4;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-delay: 1ms;
+            animation-timing-function: ease-in-out;
+        } 
+        @keyframes balls4{
+        0%{
+            top: 41%;
+        }
+        20%{
+            top: 36%;
+        }30%{
+            top: 31%;
+        }
+  
+        }
+        .balls5{
+            position: absolute;
+            top: 25%;
+            left: 60%;
+            border: 20px solid rgb(255, 0, 234) ;
+        
+            background-color: rgb(255, 0, 234);
+            border-radius: 300px;
+            animation-name: balls5;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-delay: 1ms;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes balls5{
+        0%{
+            top: 41%;
+        }
+        20%{
+            top: 38%;
+        }
+        30%{
+            top: 35%;
+        }
+        50%{
+            top: 31%;
+        }
+  
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="plate"></div>
+        <div class="balls1"></div>
+        <div class="balls2"></div>
+        <div class="balls3"></div>
+        <div class="balls4"></div>
+        <div class="balls5"></div>
+       
+    </div>
+</body>
+</html>
